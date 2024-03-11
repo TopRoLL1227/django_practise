@@ -1,2 +1,3 @@
+sudo -u postgres psql
 SELECT rolname FROM pg_roles;
 ALTER USER користувач PASSWORD 'новий_пароль';
