@@ -5,6 +5,9 @@ pip list
 django-admin startproject base .
 python manage.py runserver
 python manage.py startapp shop
+python manage.py createsuperuser
+python manage.py makemigrations
+python manage.py shell
 
 Як змінити інтерпритатор Python?
 pipenv --venv
